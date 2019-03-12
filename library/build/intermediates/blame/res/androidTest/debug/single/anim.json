@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_from_top.xml",
+        "source": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_top.xml",
+        "source": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_top.xml"
+    }
+]

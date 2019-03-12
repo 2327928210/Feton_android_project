@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context="com.haoke.feton.pages.InputSeetingActivity">
+
+    <RelativeLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@drawable/nav_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/_backButton"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_home_selector" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/spdif_out"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="22dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nav_logo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <LinearLayout
+            android:id="@+id/loudspeakerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="222dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/white_border_shape"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/mode1Layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/analog_inputTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/analog_input"
+                    android:padding="2dp"
+                    android:clickable="true"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/ch1Button"
+                        android:layout_width="58dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="8dp"
+                        android:background="@android:color/transparent"
+                        android:text="CH1"
+                        android:textAllCaps="false"
+                        android:textColor="@drawable/button_text_selector"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/ch1TextView"
+                        android:layout_width="52dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/black_border_shape"
+                        android:gravity="center"
+                        android:text="L"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/ch2Button"
+                        android:layout_width="58dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="8dp"
+                        android:background="@android:color/transparent"
+                        android:text="CH2"
+                        android:textAllCaps="false"
+                        android:textColor="@drawable/button_text_selector"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/ch2TextView"
+                        android:layout_width="52dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/black_border_shape"
+                        android:gravity="center"
+                        android:text="R"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/ch3Button"
+                        android:layout_width="58dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="8dp"
+                        android:background="@android:color/transparent"
+                        android:text="CH3"
+                        android:textAllCaps="false"
+                        android:textColor="@drawable/button_text_selector"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/ch3TextView"
+                        android:layout_width="52dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/black_border_shape"
+                        android:gravity="center"
+                        android:text="L"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/ch4Button"
+                        android:layout_width="58dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="8dp"
+                        android:background="@android:color/transparent"
+                        android:text="CH4"
+                        android:textAllCaps="false"
+                        android:textColor="@drawable/button_text_selector"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/ch4TextView"
+                        android:layout_width="52dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/black_border_shape"
+                        android:gravity="center"
+                        android:text="R"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mode2Layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/digital_inputTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="8dp"
+                    android:clickable="true"
+                    android:padding="2dp"
+                    android:text="@string/digital_input"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/digitalLButton"
+                        android:layout_width="68dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="8dp"
+                        android:background="@android:color/transparent"
+                        android:text="Digital L"
+                        android:textAllCaps="false"
+                        android:textColor="@drawable/button_text_selector"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/digitalLTextView"
+                        android:layout_width="52dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/black_border_shape"
+                        android:gravity="center"
+                        android:text="L"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/digitalRButton"
+                        android:layout_width="68dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="8dp"
+                        android:background="@android:color/transparent"
+                        android:text="Digital R"
+                        android:textAllCaps="false"
+                        android:textColor="@drawable/button_text_selector"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/digitalRTextView"
+                        android:layout_width="52dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/black_border_shape"
+                        android:gravity="center"
+                        android:text="R"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelinePercent5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.333" />
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelinePercent6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.666" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:background="#212426">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#212426">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="#212426">
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barChart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal"
+            android:background="#2e3133">
+
+            <ImageButton
+                android:id="@+id/playButton"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:background="@android:color/transparent"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/button_play_selector"/>
+
+            <Button
+                android:id="@+id/inputButton"
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:text="@string/input"
+                android:textAllCaps="false"
+                android:textColor="@drawable/button_text_selector"
+                android:textSize="13sp"/>
+
+            <Button
+                android:id="@+id/bandsButton"
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="2dp"
+                android:background="@android:color/transparent"
+                android:text="@string/bands"
+                android:textAllCaps="false"
+                android:textColor="@drawable/button_text_selector"
+                android:textSize="13sp"/>
+
+            <Button
+                android:id="@+id/fastButton"
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="2dp"
+                android:background="@android:color/transparent"
+                android:text="@string/fast"
+                android:textAllCaps="false"
+                android:textColor="@drawable/button_text_selector"
+                android:textSize="13sp"/>
+
+            <Button
+                android:id="@+id/slowButton"
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="2dp"
+                android:background="@android:color/transparent"
+                android:text="@string/slow"
+                android:textAllCaps="false"
+                android:textColor="@drawable/button_text_selector"
+                android:textSize="13sp"/>
+
+            <ImageButton
+                android:id="@+id/saveButton"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:background="@android:color/transparent"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/button_save_selector"/>
+
+            <Button
+                android:id="@+id/save1Button"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/button_saved_selector"
+                android:scaleType="fitCenter"
+                android:text="1"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/save2Button"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/button_saved_selector"
+                android:scaleType="fitCenter"
+                android:text="2"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/save3utton"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/button_saved_selector"
+                android:scaleType="fitCenter"
+                android:text="3"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""/>
+
+            <Button
+                android:id="@+id/tuneButton"
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="12dp"
+                android:background="@android:color/transparent"
+                android:text="@string/tune2"
+                android:textAllCaps="false"
+                android:textColor="@drawable/button_text_selector"
+                android:textSize="13sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

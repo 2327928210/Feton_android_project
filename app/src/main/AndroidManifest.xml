@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.haoke.feton">
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!-- 配置APP ID -->
+        <meta-data
+            android:name="BUGLY_APPID"
+            android:value="cd642c5fee" />
+        <!-- 配置APP版本号 -->
+        <meta-data
+            android:name="BUGLY_APP_VERSION"
+            android:value="1.0.0" />
+        <!-- 配置APP渠道号 -->
+        <meta-data
+            android:name="BUGLY_APP_CHANNEL"
+            android:value="Feton" />
+        <!-- 配置Bugly调试模式（true或者false） -->
+        <meta-data
+            android:name="BUGLY_ENABLE_DEBUG"
+            android:value="false" />
+
+        <activity
+            android:name=".pages.StartActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".pages.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pages.InputLevelActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pages.PreferencesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pages.ManagerPresetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pages.OutputSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pages.WizardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pages.AdvanceTuningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pages.RTAActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".pages.OutputSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pages.InputSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".pages.InputSeetingActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".pages.OutputSetting2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pages.SpdifSeetingActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

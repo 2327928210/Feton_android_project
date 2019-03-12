@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/analogButton"
+            android:layout_width="168dp"
+            android:layout_height="42dp"
+            android:background="@drawable/button_menu_shape"
+            android:drawableLeft="@drawable/button_analog_selector"
+            android:drawablePadding="12dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/analog"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@drawable/button_text_selector"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/spdifButton"
+            android:layout_width="168dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button_menu_shape"
+            android:drawableLeft="@drawable/button_spdif_selector"
+            android:drawablePadding="12dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/spdif"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@drawable/button_text_selector"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/streamingButton"
+            android:layout_width="168dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button_menu_shape"
+            android:drawableLeft="@drawable/button_streaming_selector"
+            android:drawablePadding="12dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/streaming"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@drawable/button_text_selector"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

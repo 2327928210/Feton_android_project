@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tabbar_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/tab_01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/tab_ch_level"
+            android:textSize="10sp"
+            android:textColor="@drawable/button_text_selector"
+            android:drawableTop="@drawable/button_ch_level_selector"
+            android:paddingTop="8dp"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/tab_02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/tab_ch_delay"
+            android:textSize="10sp"
+            android:textColor="@drawable/button_text_selector"
+            android:drawableTop="@drawable/button_ch_delay_selector"
+            android:paddingTop="8dp"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/tab_03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/tab_crossover"
+            android:textSize="10sp"
+            android:textColor="@drawable/button_text_selector"
+            android:drawableTop="@drawable/button_crossover_selector"
+            android:paddingTop="8dp"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/tab_04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/tab_eq"
+            android:textSize="10sp"
+            android:textColor="@drawable/button_text_selector"
+            android:drawableTop="@drawable/button_eq_selector"
+            android:paddingTop="8dp"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/tab_05"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/tab_rta"
+            android:textSize="10sp"
+            android:textColor="@drawable/button_text_selector"
+            android:drawableTop="@drawable/button_rta_selector"
+            android:paddingTop="8dp"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

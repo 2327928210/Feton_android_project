@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context="com.haoke.feton.pages.OutputSelectActivity">
+
+    <RelativeLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@drawable/nav_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/_backButton"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_home_selector" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/advanced_tuning"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="22dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nav_logo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_marginTop="90dp"
+            android:layout_marginBottom="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="18dp"
+                android:layout_marginTop="18dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/background_car"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="28dp"
+                android:layout_marginTop="88dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="W,1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent_horizontal_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.82" />
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent_vertical_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.52" />
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent_vertical_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.36" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent_horizontal_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.58" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent_vertical_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.55" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent_horizontal_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.53" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent_vertical_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.66" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent_horizontal_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.575" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent_vertical_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.3" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent_vertical_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.22" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent_horizontal_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.815" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent_horizontal_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.835" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent_horizontal_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.265" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent_horizontal_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.278" />
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent_horizontal_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.03"/>
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.228" />
+
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.108" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/background_roundness" />
+
+                <ImageButton
+                    android:id="@+id/_topButton"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/coax_center_normat"
+                    app:layout_constraintDimensionRatio="W,83:170"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.285" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.01" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.022" />
+                <com.haoke.feton.Controls.DraggableImageButton
+                    android:id="@+id/_topMidSelectedButton_2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/button_mid_range_selector"
+                    android:clickable="false"
+                    app:layout_constraintTop_toBottomOf="@id/guidelinePercent11"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintWidth_percent="0.102"/>
+                <com.haoke.feton.Controls.DraggableImageButton
+                    android:id="@+id/_topTweeterSelectedButton_3"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/button_tweeter_selector"
+                    android:clickable="false"
+                    app:layout_constraintTop_toBottomOf="@id/guidelinePercent_horizontal_8"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintWidth_percent="0.072"/>
+                <ImageButton
+                    android:id="@+id/_topCoaxSelectedButton_4"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/coax_normat"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/guidelinePercent11"
+                    app:layout_constraintWidth_percent="0.108" />
+
+                <ImageButton
+                    android:id="@+id/centerMidRangeSelectedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/button_mid_range_selector"
+                    android:visibility="gone"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/guidelinePercent11"
+                    app:layout_constraintWidth_percent="0.112" />
+
+                <ImageButton
+                    android:id="@+id/_topWay2SelectedButton_5"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/coax_center_way2_normat"
+                    app:layout_constraintDimensionRatio="W,128:192"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/guidelinePercent12"
+                    app:layout_constraintWidth_percent="0.128" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.03" />
+
+                <ImageButton
+                    android:id="@+id/_flButton"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fl_normat"
+                    app:layout_constraintDimensionRatio="W,270:288"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/guidelinePercent"
+                    app:layout_constraintWidth_percent="0.483" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.088" />
+
+                <ImageButton
+                    android:id="@+id/_flWay2SelectedButton_5"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/way2_left_normal"
+                    app:layout_constraintDimensionRatio="W,135:92"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent_vertical_3"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent_horizontal_7"
+                    app:layout_constraintWidth_percent="0.128" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.286" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.274" />
+
+                <ImageButton
+                    android:id="@+id/_flWooferSelectedButton_1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/woofer_normat"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintEnd_toStartOf="@id/guidelinePercent9"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent14"
+                    app:layout_constraintWidth_percent="0.16" />
+
+                <ImageButton
+                    android:id="@+id/_flCoaxSelectedButton_4"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/coax_normat"
+                    app:layout_constraintBottom_toTopOf="@id/guidelinePercent_horizontal_6"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent9"
+                    app:layout_constraintWidth_percent="0.108" />
+
+                <ImageButton
+                    android:id="@+id/_flMidSelectedButton_2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mid_range_normat"
+                    app:layout_constraintBottom_toTopOf="@id/guidelinePercent21"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintEnd_toStartOf="@id/guidelinePercent9"
+                    app:layout_constraintWidth_percent="0.102" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.186" />
+
+                <ImageButton
+                    android:id="@+id/_flTweeterSelectedButton_3"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tweeter_normat"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent20"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent18"
+                    app:layout_constraintWidth_percent="0.058" />
+
+                <ImageButton
+                    android:id="@+id/_frButton"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fr_normat"
+                    app:layout_constraintDimensionRatio="W,270:288"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/guidelinePercent"
+                    app:layout_constraintWidth_percent="0.483" />
+
+                <ImageButton
+                    android:id="@+id/_frWay2SelectedButton_5"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/way2_normal"
+                    app:layout_constraintDimensionRatio="W,135:92"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent_vertical_1"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent_horizontal_7"
+                    app:layout_constraintWidth_percent="0.128" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.768" />
+
+                <ImageButton
+                    android:id="@+id/_frWooferSelectedButton_1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/woofer_normat"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent15"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent14"
+                    app:layout_constraintWidth_percent="0.16" />
+
+                <ImageButton
+                    android:id="@+id/_frCoaxSelectedButton_4"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/coax_normat"
+                    app:layout_constraintBottom_toTopOf="@id/guidelinePercent14"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintEnd_toStartOf="@id/guidelinePercent15"
+                    app:layout_constraintWidth_percent="0.108" />
+
+                <ImageButton
+                    android:id="@+id/_frMidSelectedButton_2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mid_range_normat"
+                    app:layout_constraintBottom_toTopOf="@id/guidelinePercent21"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent15"
+                    app:layout_constraintWidth_percent="0.102" />
+
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.74" />
+
+                <ImageButton
+                    android:id="@+id/_frTweeterSelectedButton_3"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tweeter_normat"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent19"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent18"
+                    app:layout_constraintWidth_percent="0.058" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.956" />
+
+                <ImageButton
+                    android:id="@+id/_rlButton"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/rl_normat"
+                    app:layout_constraintBottom_toTopOf="@+id/guidelinePercent2"
+                    app:layout_constraintDimensionRatio="W,270:288"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintWidth_percent="0.483" />
+
+                <ImageButton
+                    android:id="@+id/_rrButton"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/rr_normat"
+                    app:layout_constraintBottom_toTopOf="@+id/guidelinePercent2"
+                    app:layout_constraintDimensionRatio="W,270:288"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintWidth_percent="0.483" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.558" />
+
+
+                <ImageButton
+                    android:id="@+id/_rlWooferSelectedButton_1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/woofer_normat"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintEnd_toStartOf="@id/guidelinePercent9"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent_horizontal_2"
+                    app:layout_constraintWidth_percent="0.16" />
+
+                <ImageButton
+                    android:id="@+id/_rlMidSelectedButton_2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mid_range_normat"
+                    app:layout_constraintBottom_toTopOf="@id/guidelinePercent_horizontal_4"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintEnd_toStartOf="@id/guidelinePercent9"
+                    app:layout_constraintWidth_percent="0.102" />
+
+                <ImageButton
+                    android:id="@+id/_rlTweeterSelectedButton_3"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tweeter_normat"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent20"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent_horizontal_5"
+                    app:layout_constraintWidth_percent="0.058" />
+
+                <ImageButton
+                    android:id="@+id/_rlWay2SelectedButton_5"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/way2_left_normal"
+                    app:layout_constraintDimensionRatio="W,135:92"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent_vertical_3"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent_horizontal_1"
+                    app:layout_constraintWidth_percent="0.128" />
+
+                <ImageButton
+                    android:id="@+id/_rlCoaxSelectedButton_4"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/coax_normat"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent_vertical_4"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent_horizontal_2"
+                    app:layout_constraintWidth_percent="0.108" />
+
+                <ImageButton
+                    android:id="@+id/_rrWooferSelectedButton_1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/woofer_normat"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent15"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent_horizontal_2"
+                    app:layout_constraintWidth_percent="0.16" />
+
+                <ImageButton
+                    android:id="@+id/_rrMidSelectedButton_2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mid_range_normat"
+                    app:layout_constraintBottom_toTopOf="@id/guidelinePercent_horizontal_4"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent15"
+                    app:layout_constraintWidth_percent="0.102" />
+
+                <ImageButton
+                    android:id="@+id/_rrTweeterSelectedButton_3"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tweeter_normat"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent19"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent_horizontal_5"
+                    app:layout_constraintWidth_percent="0.058" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.626" />
+
+                <ImageButton
+                    android:id="@+id/_rrWay2SelectedButton_5"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/way2_normal"
+                    app:layout_constraintDimensionRatio="W,135:92"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent_vertical_1"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent_horizontal_1"
+                    app:layout_constraintWidth_percent="0.128" />
+
+                <ImageButton
+                    android:id="@+id/_rrCoaxSelectedButton_4"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/coax_normat"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent_vertical_2"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent_horizontal_2"
+                    app:layout_constraintWidth_percent="0.108" />
+
+                <ImageButton
+                    android:id="@+id/_bottomButton"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/subwoofer_frame_normat"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintDimensionRatio="W,121:244"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintWidth_percent="0.409" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.968" />
+
+                <ImageButton
+                    android:id="@+id/_bottomSubwooferSelectedButton_6"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/subwoofer_normat"
+                    app:layout_constraintBottom_toBottomOf="@id/guidelinePercent7"
+                    app:layout_constraintDimensionRatio="W,120:157"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintWidth_percent="0.16" />
+                <ImageButton
+                    android:id="@+id/bottomSelectedButton_right_6"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/button_subwoofer_selector"
+                    android:clickable="false"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent_horizontal_13"
+                    app:layout_constraintDimensionRatio="W,135:92"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent_vertical_13"
+                    app:layout_constraintWidth_percent="0.120"/>
+                <ImageButton
+                    android:id="@+id/bottomSelectedButton_left_6"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/button_subwoofer_selector"
+                    android:clickable="false"
+                    app:layout_constraintTop_toTopOf="@id/guidelinePercent_horizontal_13"
+                    app:layout_constraintDimensionRatio="W,135:92"
+                    app:layout_constraintStart_toStartOf="@id/guidelinePercent_vertical_14"
+                    app:layout_constraintWidth_percent="0.120"/>
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.242" />
+
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/guidelinePercent4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.575" />
+
+                <com.haoke.feton.Controls.MyImageButton
+                    android:id="@+id/fConnectButton"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/button_output_connect_selector"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/guidelinePercent3"
+                    app:layout_constraintWidth_percent="0.12"/>
+
+                <com.haoke.feton.Controls.MyImageButton
+                    android:id="@+id/rConnectButton"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/button_output_connect_selector"
+                    app:layout_constraintDimensionRatio="W,1:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/guidelinePercent4"
+                    app:layout_constraintWidth_percent="0.12"/>
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/eqchannelselect"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelinePercent5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.333" />
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelinePercent6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.666" />
+
+</android.support.constraint.ConstraintLayout>

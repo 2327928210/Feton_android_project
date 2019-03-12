@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.0'
+
+    defaultConfig {
+        multiDexEnabled true
+        applicationId "com.haoke.feton"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 2
+        versionName "1.0.1"
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    signingConfigs {
+        release {
+            keyAlias 'apk.hfc'
+            keyPassword 'a1b2c3d4'
+            storeFile file('apk.clw')
+            storePassword 'a1b2c3d4'
+        }
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':croller')
+    compile project(':powermenu')
+    compile project(':viewpagerindicator')
+    compile project(':MPChartLib')
+    compile project(':FlycoDialog_Lib')
+//    compile project(':AndroidAsync')
+    compile files('libs/bugly_crash_release.jar')
+    compile 'com.github.vilyever:AndroidSocketClient:2.0.1'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.android.support:appcompat-v7:28.0.0'
+    compile 'com.android.support:support-v4:28.0.0'
+    compile 'com.android.support.constraint:constraint-layout:1.1.0'
+    compile 'com.kaopiz:kprogresshud:1.1.0'
+}
+
+
+
+

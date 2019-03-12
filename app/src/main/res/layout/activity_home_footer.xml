@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="188dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/modeButton"
+        android:layout_width="92dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:text="@string/mode"
+        android:textSize="14sp"
+        android:textColor="@drawable/button_text_selector"
+        android:drawableTop="@drawable/button_mode_selector"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="92dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/connect"
+        android:textSize="14sp"
+        android:textColor="@drawable/button_text_selector"
+        android:drawableTop="@drawable/button_connect_selector"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/tuneButton"
+        android:layout_width="92dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:text="@string/tune"
+        android:textSize="14sp"
+        android:textColor="@drawable/button_text_selector"
+        android:drawableTop="@drawable/button_tune_selector"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/setupButton"
+        android:layout_width="92dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/setup"
+        android:textSize="14sp"
+        android:textColor="@drawable/button_text_selector"
+        android:drawableTop="@drawable/button_setup_selector"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/managerPresetButton"
+            android:layout_width="188dp"
+            android:layout_height="42dp"
+            android:background="@drawable/button_menu_shape"
+            android:drawablePadding="12dp"
+            android:drawableRight="@drawable/button_manager_preset_selector"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/manager_preset"
+            android:textAlignment="textEnd"
+            android:textAllCaps="false"
+            android:textColor="@drawable/button_text_selector"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/preferencesButton"
+            android:layout_width="188dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button_menu_shape"
+            android:drawablePadding="12dp"
+            android:drawableRight="@drawable/button_preferences_selector"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/preferences"
+            android:textAlignment="textEnd"
+            android:textAllCaps="false"
+            android:textColor="@drawable/button_text_selector"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/setupWizardButton"
+            android:layout_width="188dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button_menu_shape"
+            android:drawablePadding="12dp"
+            android:drawableRight="@drawable/button_setup_wizard_selector"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/setup_wizard"
+            android:textAlignment="textEnd"
+            android:textAllCaps="false"
+            android:textColor="@drawable/button_text_selector"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

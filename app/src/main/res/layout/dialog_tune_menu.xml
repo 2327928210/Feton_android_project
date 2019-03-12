@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/inputButton"
+            android:layout_width="188dp"
+            android:layout_height="42dp"
+            android:background="@drawable/button_menu_shape"
+            android:drawablePadding="12dp"
+            android:drawableRight="@drawable/button_input_eq_selector"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/input_level"
+            android:textAlignment="textEnd"
+            android:textAllCaps="false"
+            android:textColor="@drawable/button_text_selector"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/spdifButton"
+            android:layout_width="188dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button_menu_shape"
+            android:drawablePadding="12dp"
+            android:drawableRight="@drawable/button_spdif_selector"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/spdif_out"
+            android:textAlignment="textEnd"
+            android:textAllCaps="false"
+            android:textColor="@drawable/button_text_selector"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/outputSettingButton"
+            android:layout_width="188dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button_menu_shape"
+            android:drawablePadding="12dp"
+            android:drawableRight="@drawable/button_output_setting_selector"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/output_setting"
+            android:textAlignment="textEnd"
+            android:textAllCaps="false"
+            android:textColor="@drawable/button_text_selector"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/advanceButton"
+            android:layout_width="188dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button_menu_shape"
+            android:drawablePadding="12dp"
+            android:drawableRight="@drawable/button_advanced_tuning_selector"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/advanced_tuning"
+            android:textAlignment="textEnd"
+            android:textAllCaps="false"
+            android:textColor="@drawable/button_text_selector"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

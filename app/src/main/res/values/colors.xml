@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="tab_selected_title_color">#C7E410</color>
+    <color name="tab_normal_title_color">#FFFFFF</color>
+
+    <color name="background_color">#282d30</color>
+    <color name="color_green">#00ff00</color>
+    <color name="color_chart2">#9900ff00</color>
+    <color name="color_chart1">#9900ffff</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="transparent">#0FFF</color>
+    <color name="blue_n">#1eafff</color>
+    <color name="blue_p">#188CCC</color>
+</resources>
