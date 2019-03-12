@@ -81,7 +81,7 @@
 
                 <Button
                     android:id="@+id/enableButton"
-                    android:layout_width="118dp"
+                    android:layout_width="88dp"
                     android:layout_height="32dp"
                     android:layout_marginLeft="12dp"
                     android:background="@drawable/button_round_corner_selector"
@@ -92,7 +92,7 @@
 
                 <Button
                     android:id="@+id/disableButton"
-                    android:layout_width="118dp"
+                    android:layout_width="88dp"
                     android:layout_height="32dp"
                     android:layout_marginLeft="24dp"
                     android:background="@drawable/button_round_corner_selector"
@@ -128,7 +128,7 @@
 
                 <Button
                     android:id="@+id/maxInput01Button"
-                    android:layout_width="118dp"
+                    android:layout_width="88dp"
                     android:layout_height="32dp"
                     android:layout_marginLeft="12dp"
                     android:background="@drawable/button_round_corner_selector"
@@ -139,11 +139,22 @@
 
                 <Button
                     android:id="@+id/maxInput02Button"
-                    android:layout_width="118dp"
+                    android:layout_width="88dp"
                     android:layout_height="32dp"
                     android:layout_marginLeft="24dp"
                     android:background="@drawable/button_round_corner_selector"
                     android:text="+6dB"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/maxInput03Button"
+                    android:layout_width="88dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="24dp"
+                    android:background="@drawable/button_round_corner_selector"
+                    android:text="+9dB"
                     android:textAllCaps="false"
                     android:textColor="@android:color/black"
                     android:textSize="13sp" />
@@ -175,7 +186,7 @@
 
                 <Button
                     android:id="@+id/maxOutput01Button"
-                    android:layout_width="118dp"
+                    android:layout_width="88dp"
                     android:layout_height="32dp"
                     android:layout_marginLeft="12dp"
                     android:background="@drawable/button_round_corner_selector"
@@ -186,11 +197,22 @@
 
                 <Button
                     android:id="@+id/maxOutput02Button"
-                    android:layout_width="118dp"
+                    android:layout_width="88dp"
                     android:layout_height="32dp"
                     android:layout_marginLeft="24dp"
                     android:background="@drawable/button_round_corner_selector"
                     android:text="+6dB"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/maxOutput03Button"
+                    android:layout_width="88dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="24dp"
+                    android:background="@drawable/button_round_corner_selector"
+                    android:text="+9dB"
                     android:textAllCaps="false"
                     android:textColor="@android:color/black"
                     android:textSize="13sp" />
@@ -232,7 +254,7 @@
 
                     <Button
                         android:id="@+id/spdif01Button"
-                        android:layout_width="118dp"
+                        android:layout_width="88dp"
                         android:layout_height="32dp"
                         android:layout_marginLeft="12dp"
                         android:background="@drawable/button_round_corner_selector"
@@ -243,7 +265,7 @@
 
                     <Button
                         android:id="@+id/spdif02Button"
-                        android:layout_width="118dp"
+                        android:layout_width="88dp"
                         android:layout_height="32dp"
                         android:layout_marginLeft="24dp"
                         android:background="@drawable/button_round_corner_selector"
