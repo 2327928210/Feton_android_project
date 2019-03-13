@@ -320,7 +320,7 @@
                     android:layout_width="88dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:text="@string/spdif_l"
+                    android:text="Digital L"
                     android:textColor="@android:color/white"
                     android:textSize="14sp"
                     android:textStyle="bold"/>
@@ -367,7 +367,7 @@
                     android:layout_width="88dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:text="@string/spdif_r"
+                    android:text="Digital R"
                     android:textColor="@android:color/white"
                     android:textSize="14sp"
                     android:textStyle="bold"/>
@@ -405,6 +405,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:visibility="invisible"
                 android:layout_width="wrap_content"
                 android:layout_height="44dp"
                 android:layout_gravity="center"
@@ -452,6 +453,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:visibility="invisible"
                 android:layout_width="wrap_content"
                 android:layout_height="44dp"
                 android:layout_gravity="center"
@@ -508,7 +510,7 @@
                     android:layout_width="88dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:text="@string/mic1"
+                    android:text="Mic"
                     android:textColor="@android:color/white"
                     android:textSize="14sp"
                     android:textStyle="bold"/>
@@ -525,12 +527,14 @@
                         android:layout_width="88dp"
                         android:layout_height="28dp"
                         android:background="@drawable/button_round_corner_selector"
-                        android:text="@string/before_in_eq"
+                        android:text="In"
+                        android:gravity="center"
                         android:textAllCaps="false"
                         android:textColor="@android:color/black"
                         android:textSize="12sp"/>
 
                     <Button
+                        android:visibility="invisible"
                         android:id="@+id/mic1AfterButton"
                         android:layout_width="88dp"
                         android:layout_height="28dp"
@@ -546,6 +550,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:visibility="invisible"
                 android:layout_width="wrap_content"
                 android:layout_height="44dp"
                 android:layout_gravity="center"

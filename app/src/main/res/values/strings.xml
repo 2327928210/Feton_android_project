@@ -132,4 +132,13 @@
     <string name="permission">authorize</string>
     <string name="permission_active">Manual authorization</string>
     <string name="other_cancel">cancel</string>
+
+    <string name="preferences_dac_filter">DAC filter</string>
+    <string name="preferences_btn1_text">Sharp Roll-Off Filter</string>
+    <string name="preferences_btn2_text">Slop Roll-Off Filter</string>
+    <string name="preferences_btn3_text">Short Delay Sharp Roll-Off Filter</string>
+    <string name="preferences_btn4_text">Short Delay Slow Roll-Off Filter</string>
+    <string name="preferences_led_text">LED colors setup</string>
+    <string name="preferences_led_btn1_text">Rmote</string>
+    <string name="preferences_led_btn2_text">AMP</string>
 </resources>

@@ -17,4 +17,8 @@
     <color name="transparent">#0FFF</color>
     <color name="blue_n">#1eafff</color>
     <color name="blue_p">#188CCC</color>
+    <color name="color_999">#999</color>
+    <color name="color_aaa">#aaa</color>
+    <color name="color_bbb">#bbb</color>
+    <color name="color_ccc">#ccc</color>
 </resources>
