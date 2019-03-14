@@ -1,14 +1,14 @@
 [
     {
-        "merged": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
-        "source": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
+        "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
     },
     {
-        "merged": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
-        "source": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
+        "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_flip.png"
     },
     {
-        "merged": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
-        "source": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_flip.png"
+        "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
     }
 ]

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
-        "source": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+        "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
     },
     {
-        "merged": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
-        "source": "D:\\Android\\project\\0030_BHZS\\0002 development\\0001 code\\0001 android source\\Feton_android\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+        "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
     }
 ]
