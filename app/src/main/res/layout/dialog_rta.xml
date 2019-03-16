@@ -188,7 +188,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="Freq:"
+            android:text="Freq :"
             android:textColor="@android:color/white"
             android:textSize="14sp"
             android:textAllCaps="false" />
@@ -199,7 +199,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="MIC:"
+            android:text="RMS :"
             android:textColor="@android:color/white"
             android:textSize="14sp"
             android:textAllCaps="false" />
@@ -210,7 +210,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="MIC"
+            android:text="test"
             android:textColor="@android:color/white"
             android:textSize="14sp"
             android:textAllCaps="false" />

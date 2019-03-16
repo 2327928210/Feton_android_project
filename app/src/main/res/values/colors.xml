@@ -10,7 +10,7 @@
 
     <color name="background_color">#282d30</color>
     <color name="color_green">#00ff00</color>
-    <color name="color_chart2">#9900ff00</color>
+    <color name="color_chart2">#aa00ff00</color>
     <color name="color_chart1">#9900ffff</color>
     <color name="color_white">#ffffff</color>
     <color name="color_black">#000000</color>
