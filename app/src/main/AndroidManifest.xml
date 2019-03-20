@@ -86,7 +86,8 @@
         <activity
             android:name=".pages.SpdifSeetingActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".pages.Led2PreferencesActivity"></activity>
+        <activity android:name=".pages.Led2PreferencesActivity" />
+        <activity android:name=".pages.Led1PreferenceActivity"></activity>
     </application>
 
 </manifest>
