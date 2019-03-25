@@ -141,4 +141,6 @@
     <string name="preferences_led_text">LED colors setup</string>
     <string name="preferences_led_btn1_text">Rmote</string>
     <string name="preferences_led_btn2_text">AMP</string>
+
+    <string name="preferences_update">Do you want to upgrade Mcu?</string>
 </resources>
