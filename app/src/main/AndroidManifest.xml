@@ -57,9 +57,17 @@
         <activity
             android:name=".pages.PreferencesActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".pages.ManagerPresetActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".pages.OutputSettingActivity"
             android:screenOrientation="portrait" />
