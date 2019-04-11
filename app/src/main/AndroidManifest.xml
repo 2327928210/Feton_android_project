@@ -57,17 +57,17 @@
         <activity
             android:name=".pages.PreferencesActivity"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".pages.ManagerPresetActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="android.intent.action.VIEW"></action>
+                <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="*/*"/>
+
+                <data android:mimeType="*/*" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".pages.OutputSettingActivity"
             android:screenOrientation="portrait" />
@@ -96,7 +96,8 @@
             android:name=".pages.SpdifSeetingActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".pages.Led2PreferencesActivity" />
-        <activity android:name=".pages.Led1PreferenceActivity"></activity>
+        <activity android:name=".pages.Led1PreferenceActivity" />
+        <activity android:name=".pages.McuUpdateActivity"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    tools:context="com.haoke.feton.pages.McuUpdateActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/nav_bg">
+
+        <ImageButton
+            android:id="@+id/update_mcu_backButton"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@android:color/transparent"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_home_selector" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="@string/preferences"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="22dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/nav_logo" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/update_1_Button"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round_corner_selector"
+        android:text="@string/mcu_update_btn1"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/update_2_Button"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round_corner_selector"
+        android:text="@string/mcu_update_btn2"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/update_3_Button"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round_corner_selector"
+        android:text="@string/mcu_update_btn3"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/update_4_Button"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round_corner_selector"
+        android:text="@string/mcu_update_btn4"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/update_5_Button"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round_corner_selector"
+        android:text="@string/mcu_update_btn5"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/update_6_Button"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round_corner_selector"
+        android:text="@string/mcu_update_btn6"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/update_7_Button"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round_corner_selector"
+        android:text="@string/mcu_update_btn7"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="13sp" />
+
+</LinearLayout>

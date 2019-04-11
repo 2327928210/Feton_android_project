@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <color name="white">#FFF</color>
+    <color name="color_505050">#505050</color>
+    <color name="white_a">#aFFF</color>
+    <color name="white_3">#3FFF</color>
+    <color name="gray_6">#666</color>
+    <color name="gray_a">#aaa</color>
+    <color name="gray_b">#BBB</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>

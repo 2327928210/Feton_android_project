@@ -143,4 +143,12 @@
     <string name="preferences_led_btn2_text">AMP</string>
 
     <string name="preferences_update">Do you want to upgrade Mcu?</string>
+
+    <string name="mcu_update_btn1">WiFi not enabled</string>
+    <string name="mcu_update_btn2">Check file</string>
+    <string name="mcu_update_btn3">Check version</string>
+    <string name="mcu_update_btn4">Download the upgrade file</string>
+    <string name="mcu_update_btn5">WiFi not enabled</string>
+    <string name="mcu_update_btn6">Upgrading Mcu</string>
+    <string name="mcu_update_btn7">Mcu has been upgraded to the latest version</string>
 </resources>
