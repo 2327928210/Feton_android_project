@@ -741,11 +741,26 @@
                         android:layout_centerVertical="true"
                         android:layout_marginRight="30dp"
                         android:background="@drawable/button_round_corner_selector"
-                        android:text="update"
+                        android:text="Update"
                         android:textAllCaps="false"
                         android:textColor="@android:color/black"
                         android:textSize="13sp" />
                 </RelativeLayout>
+
+                <Button
+                    android:id="@+id/reset_Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="48dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/button_round_corner_selector"
+                    android:text="@string/preferences_reset"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="13sp" />
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

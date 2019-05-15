@@ -23,6 +23,7 @@
     <string name="input_setting">Input Setting</string>
     <string name="manager_preset">Manager Preset</string>
     <string name="preferences">Preferences</string>
+    <string name="update">Update</string>
     <string name="setup_wizard">Setup Wizard</string>
     <string name="ok">OK</string>
     <string name="external_remote_control">External remote control</string>
@@ -141,6 +142,8 @@
     <string name="preferences_led_text">LED colors setup</string>
     <string name="preferences_led_btn1_text">Rmote</string>
     <string name="preferences_led_btn2_text">AMP</string>
+    <string name="preferences_reset">Reset</string>
+    <string name="preferences_is_reset">Reset current settings or not?</string>
 
     <string name="preferences_update">Do you want to upgrade Mcu?</string>
 
