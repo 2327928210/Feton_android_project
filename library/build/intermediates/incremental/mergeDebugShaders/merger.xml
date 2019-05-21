@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Android\Android_SVN_Project\002_DSP\001_Code\001_BHZS_DSP\library\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\Android\Android_SVN_Project\002_DSP\001_Code\001_BHZS_DSP\library\build-types\debug\shaders"/></dataSet></merger>
