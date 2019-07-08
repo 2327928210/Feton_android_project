@@ -47,12 +47,13 @@
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/nav_logo"
             android:layout_width="88dp"
             android:layout_height="22dp"
             android:layout_gravity="right|center_vertical"
             android:scaleType="fitCenter"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/nav_logo"/>
+            android:src="@drawable/nav_logo"/>
 
     </FrameLayout>
 

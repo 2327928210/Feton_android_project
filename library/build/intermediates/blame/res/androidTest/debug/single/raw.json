@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\bdspeech_recognition_error.mp3",
+        "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\raw\\bdspeech_recognition_error.mp3"
+    },
+    {
+        "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\sound_radar1.wav",
+        "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\raw\\sound_radar1.wav"
+    },
+    {
+        "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\bdspeech_recognition_success.mp3",
+        "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\raw\\bdspeech_recognition_success.mp3"
+    },
+    {
+        "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\bdspeech_speech_end.mp3",
+        "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\raw\\bdspeech_speech_end.mp3"
+    },
+    {
+        "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\bdspeech_recognition_start.mp3",
+        "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\raw\\bdspeech_recognition_start.mp3"
+    },
+    {
+        "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\beep.ogg",
+        "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\bdspeech_recognition_cancel.mp3",
+        "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\raw\\bdspeech_recognition_cancel.mp3"
+    },
+    {
+        "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\speak_end.mp3",
+        "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\raw\\speak_end.mp3"
+    }
+]

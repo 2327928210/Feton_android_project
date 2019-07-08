@@ -7,6 +7,7 @@
     <color name="gray_6">#666</color>
     <color name="gray_a">#aaa</color>
     <color name="gray_b">#BBB</color>
+    <color name="blue">#00f</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
@@ -23,8 +24,16 @@
     <color name="transparent">#0FFF</color>
     <color name="blue_n">#1eafff</color>
     <color name="blue_p">#188CCC</color>
+
+    <color name="color_000">#000</color>
+    <color name="color_333">#333</color>
+    <color name="color_666">#666</color>
     <color name="color_999">#999</color>
     <color name="color_aaa">#aaa</color>
     <color name="color_bbb">#bbb</color>
     <color name="color_ccc">#ccc</color>
+    <color name="color_ddd">#ddd</color>
+    <color name="color_eee">#eee</color>
+    <color name="color_fff">#fff</color>
+
 </resources>

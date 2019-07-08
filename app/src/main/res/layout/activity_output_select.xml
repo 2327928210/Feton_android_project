@@ -39,6 +39,7 @@
             android:textStyle="bold" />
 
         <ImageView
+            android:id="@+id/nav_logo"
             android:layout_width="88dp"
             android:layout_height="22dp"
             android:layout_alignParentRight="true"

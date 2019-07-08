@@ -46,12 +46,13 @@
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/nav_logo"
             android:layout_width="88dp"
             android:layout_height="22dp"
             android:layout_gravity="right|center_vertical"
             android:layout_marginRight="10dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/nav_logo" />
+            android:src="@drawable/nav_logo" />
 
     </FrameLayout>
 
@@ -72,11 +73,11 @@
             <TextView
                 android:layout_width="108dp"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="12dp"
+                android:layout_marginLeft="10dp"
                 android:gravity="center_vertical"
                 android:text="@string/device_preset"
                 android:textColor="@android:color/white"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:textStyle="bold" />
 
             <EditText
@@ -113,6 +114,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="38dp"
             android:layout_marginTop="12dp"
@@ -162,6 +164,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="38dp"
             android:layout_marginTop="12dp"
@@ -211,6 +214,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="38dp"
             android:layout_marginTop="12dp"
@@ -260,6 +264,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="38dp"
             android:layout_marginTop="12dp"
@@ -309,6 +314,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="38dp"
             android:layout_marginTop="12dp"
@@ -395,13 +401,13 @@
 
         <TextView
             android:layout_marginTop="12dp"
-            android:layout_marginLeft="12dp"
+            android:layout_marginLeft="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@android:color/white"
-            android:textSize="15sp"
+            android:textSize="14sp"
             android:textStyle="bold"
-            android:text="Receiver Preset :"
+            android:text="Receiver :"
             />
 
         <RelativeLayout
@@ -417,6 +423,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
+                    android:visibility="gone"
                     android:id="@+id/_addButton"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

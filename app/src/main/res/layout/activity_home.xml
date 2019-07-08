@@ -46,6 +46,7 @@
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/nav_logo"
             android:layout_width="88dp"
             android:layout_height="22dp"
             android:layout_gravity="right|center_vertical"
@@ -64,6 +65,7 @@
         app:layout_constraintBottom_toBottomOf="parent"/>
 
     <LinearLayout
+        android:id="@+id/croller_rel"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout"
@@ -123,6 +125,7 @@
                         android:id="@+id/mainCroller"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:clickable="true"
                         android:layout_centerInParent="true"
                         app:back_circle_color="#ffffff"
                         app:indicator_color="#ffffff"
@@ -282,5 +285,23 @@
         </LinearLayout>
 
     </LinearLayout>
-
+    <LinearLayout
+        android:id="@+id/showText_rel"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/croller_rel"
+        app:layout_constraintBottom_toTopOf="@+id/footer">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Engineered With \u2764 by Dominic"/>
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

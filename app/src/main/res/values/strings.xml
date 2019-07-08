@@ -32,7 +32,7 @@
     <string name="max_input_level">MAX input level</string>
     <string name="max_output_level">MAX output level</string>
     <string name="remote_led_setting">Remote Led Setting</string>
-    <string name="device_preset">Device Preset :</string>
+    <string name="device_preset">Device memory :</string>
     <string name="ch_eq">CH EQ :</string>
     <string name="in_eq">in EQ :</string>
     <string name="ch_level">CH Level :</string>
@@ -46,7 +46,7 @@
     <string name="streaming_input">Streaming Input</string>
     <string name="output">Output</string>
     <string name="back">Back</string>
-    <string name="next">Next</string>
+    <string name="next">OK</string>
     <string name="tab_ch_level">CH Level</string>
     <string name="tab_ch_delay">CH Delay</string>
     <string name="tab_crossover">Crossover</string>
@@ -109,6 +109,7 @@
     <string name="managerpreset_delect">Delete current settings or not?</string>
 
     <string name="save_button_title">Please select where to save?</string>
+    <string name="save_button">Save to</string>
     <string name="save_button_CHLevel">Save to CH Level</string>
     <string name="save_button_CHCrossover">Save to CH Crossover</string>
     <string name="save_button_CHDelay">Save to CH Delay</string>

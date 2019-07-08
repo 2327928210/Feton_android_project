@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_x_15"
+        android:layout_marginRight="@dimen/layout_x_15"
+        android:background="@drawable/background_yuanjiao"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/layout_x_15"
+            android:text="Change CH"
+            android:textColor="@color/color_999"
+            android:textSize="@dimen/layout_x_18" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_y_1"
+            android:background="@color/color_999"/>
+
+        <ListView
+            android:id="@+id/myListView_city_arcm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/color_999"></ListView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_y_60"
+        android:layout_marginLeft="@dimen/layout_x_15"
+        android:layout_marginRight="@dimen/layout_x_15"
+        android:layout_marginTop="@dimen/layout_x_15"
+        android:layout_marginBottom="@dimen/layout_y_20"
+        android:background="@drawable/background_yuanjiao">
+
+        <TextView
+            android:id="@+id/text_cancael"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text="Cancel"
+            android:textColor="@color/blue_p"
+            android:textSize="@dimen/layout_x_20" />
+    </RelativeLayout>
+</LinearLayout>
