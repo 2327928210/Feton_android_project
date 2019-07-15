@@ -84,10 +84,17 @@
             android:name=".pages.OutputSelectActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".pages.InputSelectActivity"
+            android:name=".pages.OutputSelect2Activity"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".pages.InputSelectActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
             android:name=".pages.InputSeetingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pages.InputSeeting2Activity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".pages.OutputSetting2Activity"

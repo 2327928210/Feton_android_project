@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:padding="@dimen/layout_x_15"
+            android:padding="@dimen/layout_x_17"
             android:text="Change CH"
             android:textColor="@color/color_999"
             android:textSize="@dimen/layout_x_18" />
@@ -27,14 +27,16 @@
             android:background="@color/color_999"/>
 
         <ListView
-            android:id="@+id/myListView_city_arcm"
+            android:id="@+id/listView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:divider="@color/color_999"></ListView>
+            android:divider="@color/color_999"
+            android:dividerHeight="@dimen/layout_y_1"></ListView>
 
     </LinearLayout>
 
     <RelativeLayout
+        android:id="@+id/cancel_rel"
         android:layout_width="match_parent"
         android:layout_height="@dimen/layout_y_60"
         android:layout_marginLeft="@dimen/layout_x_15"
@@ -44,13 +46,14 @@
         android:background="@drawable/background_yuanjiao">
 
         <TextView
-            android:id="@+id/text_cancael"
+            android:id="@+id/cancel_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_centerInParent="true"
             android:text="Cancel"
             android:textColor="@color/blue_p"
-            android:textSize="@dimen/layout_x_20" />
+            android:textSize="@dimen/layout_x_22"
+            android:textStyle="bold"/>
     </RelativeLayout>
 </LinearLayout>

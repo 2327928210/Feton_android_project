@@ -42,6 +42,7 @@
                     app:main_circle_color="#34383b"
                     app:max="120"
                     app:min="0"
+                    app:progress="120"
                     app:progress_primary_stroke_width="4"
                     app:progress_primary_color="#ffffff"
                     app:progress_secondary_stroke_width="2"
@@ -103,7 +104,7 @@
                             android:layout_marginLeft="8dp"
                             android:textColor="#00ff00"
                             android:textSize="16sp"
-                            android:text="0"
+                            android:text="0.0"
                             android:textAlignment="center"/>
 
                         <TextView
@@ -195,6 +196,7 @@
                     app:main_circle_color="#34383b"
                     app:max="120"
                     app:min="0"
+                    app:progress="120"
                     app:progress_primary_stroke_width="4"
                     app:progress_primary_color="#ffffff"
                     app:progress_secondary_stroke_width="2"
@@ -256,7 +258,7 @@
                             android:layout_marginLeft="8dp"
                             android:textColor="#00ff00"
                             android:textSize="16sp"
-                            android:text="0"
+                            android:text="0.0"
                             android:textAlignment="center"/>
 
                         <TextView
