@@ -60,7 +60,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/frameLayout"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="10dp">
 
         <Button
             android:id="@+id/main_level_Button"
@@ -92,7 +92,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rel_1"
-        android:layout_marginTop="12dp">
+        android:layout_marginTop="10dp">
 
         <Button
             android:id="@+id/memory_a_Button"
@@ -122,7 +122,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="6dp"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal">
 
@@ -278,10 +278,10 @@
     <LinearLayout
         android:id="@+id/rel_3"
         android:layout_width="match_parent"
-        android:layout_height="185dp"
+        android:layout_height="175dp"
         android:layout_below="@+id/rel_2"
         android:layout_gravity="center_vertical"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="6dp"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -447,10 +447,10 @@
     <LinearLayout
         android:id="@+id/rel_4"
         android:layout_width="match_parent"
-        android:layout_height="185dp"
+        android:layout_height="175dp"
         android:layout_below="@+id/rel_3"
         android:layout_gravity="center_vertical"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="12dp"
         android:orientation="horizontal">
 
         <LinearLayout
