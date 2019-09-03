@@ -8,9 +8,9 @@ android {
         multiDexEnabled true
         applicationId "com.haoke.feton"
         minSdkVersion 19
-        targetSdkVersion 28
-        versionCode 16
-        versionName "1.1.7"
+        targetSdkVersion 22
+        versionCode 20
+        versionName "1.2.1"
     }
     lintOptions {
         checkReleaseBuilds false
@@ -46,6 +46,7 @@ dependencies {
     compile project(':MPChartLib')
     compile project(':FlycoDialog_Lib')
     compile files('libs/bugly_crash_release.jar')
+//    compile 'com.github.vilyever:AndroidSocketClient:3.0.3'
     compile 'com.github.vilyever:AndroidSocketClient:2.0.1'
     compile 'com.google.code.gson:gson:2.2.4'
     compile 'com.android.support:appcompat-v7:28.0.0'

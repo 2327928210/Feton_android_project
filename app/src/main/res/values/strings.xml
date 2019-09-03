@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EASY TUNE</string>
+    <string name="app_name">ETON DSPcontrol</string>
     <string name="app_version">App Version:</string>
     <string name="mcu_version">Mcu Version:</string>
     <string name="home">HOME</string>
