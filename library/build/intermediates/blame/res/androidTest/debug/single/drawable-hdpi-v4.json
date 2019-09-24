@@ -36,12 +36,12 @@
         "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\voicenaci_sound28.png"
     },
     {
-        "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\voicenaci_sound17.png",
-        "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\voicenaci_sound17.png"
-    },
-    {
         "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\mymic_ing.png",
         "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\mymic_ing.png"
+    },
+    {
+        "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\voicenaci_sound17.png",
+        "source": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\voicenaci_sound17.png"
     },
     {
         "merged": "D:\\Android\\Android_SVN_Project\\002_DSP\\001_Code\\001_BHZS_DSP\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\voicenaci_sound5.png",

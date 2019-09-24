@@ -89,7 +89,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
@@ -110,8 +109,8 @@
     <orderEntry type="library" exported="" name="cursoradapter-28.0.0" level="project" />
     <orderEntry type="library" exported="" name="slidingpanelayout-28.0.0" level="project" />
     <orderEntry type="library" exported="" name="versionedparcelable-28.0.0" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="multidex-instrumentation-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="livedata-1.1.1" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="multidex-instrumentation-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="support-core-utils-28.0.0" level="project" />
     <orderEntry type="library" exported="" name="loader-28.0.0" level="project" />
     <orderEntry type="library" exported="" name="cardview-v7-28.0.0" level="project" />
