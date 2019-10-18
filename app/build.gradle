@@ -9,8 +9,8 @@ android {
         applicationId "com.haoke.feton"
         minSdkVersion 19
         targetSdkVersion 28
-        versionCode 22
-        versionName "1.2.3"
+        versionCode 23
+        versionName "1.2.4"
     }
     lintOptions {
         checkReleaseBuilds false
@@ -54,6 +54,7 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.1.0'
     compile 'com.kaopiz:kprogresshud:1.1.0'
 }
+
 
 
 

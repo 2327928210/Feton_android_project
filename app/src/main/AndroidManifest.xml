@@ -12,8 +12,12 @@
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-library
+        android:name="org.apache.http.legacy"
+        android:required="false" />
+
     <application
         android:name=".application.MyApplication"
         android:allowBackup="true"
@@ -24,6 +28,7 @@
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
+
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="com.haoke.feton.fileprovider"
@@ -31,9 +36,7 @@
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/provider_paths">
-
-            </meta-data>
+                android:resource="@xml/provider_paths"></meta-data>
         </provider>
 
         <!-- 配置APP ID -->
@@ -72,7 +75,6 @@
         <activity
             android:name=".pages.PreferencesActivity"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".pages.OutputSettingActivity"
             android:screenOrientation="portrait" />
@@ -94,7 +96,6 @@
         <activity
             android:name=".pages.InputSelectActivity"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".pages.InputSeetingActivity"
             android:screenOrientation="portrait" />
@@ -107,12 +108,26 @@
         <activity
             android:name=".pages.SpdifSeetingActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".pages.Led2PreferencesActivity" />
-        <activity android:name=".pages.Led1PreferenceActivity" />
-        <activity android:name=".pages.McuUpdateActivity"></activity>
-
+        <activity
+            android:name=".pages.Led2PreferencesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pages.Led1PreferenceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pages.McuUpdateActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".pages.ManagerPresetActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".pages.MPActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
