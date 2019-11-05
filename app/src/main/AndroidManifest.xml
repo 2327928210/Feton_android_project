@@ -58,7 +58,6 @@
 
         <activity
             android:name=".pages.StartActivity"
-            android:screenOrientation="portrait"
             android:theme="@style/Theme.Start">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -117,6 +116,7 @@
         <activity
             android:name=".pages.McuUpdateActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".pages.ManagerPresetActivity"
             android:screenOrientation="portrait">
@@ -127,7 +127,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".pages.MPActivity"
+            android:name="com.haoke.feton.pages.MPActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
